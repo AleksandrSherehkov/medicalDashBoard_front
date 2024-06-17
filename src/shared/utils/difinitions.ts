@@ -135,7 +135,7 @@ export interface Supplier {
   name: string;
   address: string;
   suppliers: string;
-  date: CalendarDate | string;
+  date: Draft<CalendarDate> | string;
   amount: string;
   status: string;
 }
