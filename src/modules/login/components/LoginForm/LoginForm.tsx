@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Formik, Form, Field } from 'formik';
 import { gsap } from 'gsap';
 import { loginSchema } from '../../../../shared/utils/validation/loginSchema';
