@@ -20,8 +20,15 @@ export const LoginForm = () => {
     if (formRef.current) {
       gsap.fromTo(
         formRef.current,
-        { opacity: 0, y: 50 },
-        { opacity: 1, y: 0, duration: 1, ease: 'power2.out' }
+        { opacity: 0, scale: 0.5, rotation: 360, y: -500 },
+        {
+          opacity: 1,
+          scale: 1,
+          rotation: 0,
+          y: 0,
+          duration: 1.5,
+          ease: 'power2.out',
+        }
       );
     }
   }, []);
